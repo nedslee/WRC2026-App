@@ -1,25 +1,33 @@
 {
+  "id": "./",
   "name": "WRC 2026 현장 가이드",
   "short_name": "WRC 2026",
-  "description": "WRC 2026 참가사 완전 오프라인 현장 관람 가이드 · Release 1.0",
-  "start_url": "./index.html",
+  "description": "WRC 2026 참가사 완전 오프라인 현장 관람 가이드 · Release 1.0.1",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f4f7fb",
   "theme_color": "#163c78",
   "lang": "ko-KR",
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "./icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "./icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
